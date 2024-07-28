@@ -293,7 +293,7 @@ cd client
 pyinstaller.exe --onefile cli.py
 ```
 
-如果是python3.6的话可能会出现“The win32ui module could not initialize the application object”的错误，参考[这篇文章](https://www.cnblogs.com/banyanisdora/p/14272647.html)，可以协助300版本安装228：
+如果是python3.6的话可能会出现“The win32ui module could not initialize the application object”的错误，参考[这篇文章](https://www.cnblogs.com/banyanisdora/p/14272647.html)，可以卸载300版本安装228：
 ```
 pip uninstall pywin32
 pip install pywin32==228
